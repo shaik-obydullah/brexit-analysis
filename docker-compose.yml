@@ -1,0 +1,6 @@
+services:
+  brexit-analysis:
+    build: .
+    container_name: brexit-analysis
+    volumes:
+      - ./plots:/app/plots
